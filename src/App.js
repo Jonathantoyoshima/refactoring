@@ -1,18 +1,9 @@
-import "./App.css";
-import { statement, htmlStatement } from "./statement";
+// import { htmlStatement } from "./statement";
+// import Province from './Province'
 
 function App() {
-  return (
-    <div className="App">
-      {statement()
-        .split("\n")
-        .map((text) => (
-          <p key={text}>{text}</p>
-        ))}
-
-      {htmlStatement()}
-    </div>
-  );
+  // return <div className="App">{htmlStatement()}</div>;
+  return <div></div>;
 }
 
 export default App;
